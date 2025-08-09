@@ -1,0 +1,27 @@
+@import "tailwindcss"; 
+
+@layer base {
+    html {
+        @apply bg-[#00539f];
+    }
+    body {
+        @apply w-[600px];
+        @apply mx-auto;
+        @apply bg-[#ff9500];
+        @apply pb-[20px] px-[20px];
+        @apply border-[5px] border-black border-solid;
+    }
+    p {
+        @apply text-blue-900;
+    }
+
+    p, li {
+        @apply text-base;
+        @apply leading-7;
+    }
+
+    h1 {
+        @apply m-0 py-[20px];
+        @apply text-[#00539f] text-shadow-lg/30;
+    }
+}
